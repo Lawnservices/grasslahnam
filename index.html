@@ -11,6 +11,10 @@
 <body>
     <header>
     <nav class="navega">
+         <a href="https://www.youtube.com/channel/UC8Q51GWY9f5YsIQyLwNMfbw" target="_blank"  onclick="event.preventDefault();
+            if (confirm('Do you want to subscribe to my YouTube channel?')) {
+                window.open(this.href, '_blank');
+            }" class="boton">Subscribe</a>
                 <button id="boton">Change the color</button>
     </nav>
     </header>

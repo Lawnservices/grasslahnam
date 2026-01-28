@@ -20,6 +20,13 @@ color: white;
 cursor: pointer;
  
 }
+.boton{
+border: none;
+padding: 14px;
+background-color: brown;
+color: white;
+text-decoration: none;
+}
 header button:hover{
 background-color: #f1f5f9;
 color: #061120;
