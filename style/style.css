@@ -20,9 +20,14 @@ color: white;
 cursor: pointer;
  
 }
+
 header button:hover{
 background-color: #f1f5f9;
 color: #061120;
+}
+h1.titulo{
+text-align: center;
+color: green;
 }
 main{
 max-width: 94%;
